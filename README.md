@@ -6,8 +6,7 @@ oc login https://vm1.192.168.0.101.nip.io:8443
 
 https://vm1.192.168.0.101.nip.io:8443
 
-![image](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/853c8c4e-7d3c-4d12-9f94-d160ae032183)
-
+![Screenshot from 2023-10-15 17-56-40](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/6ff4a811-6971-48ad-8a75-c318b9ac4f17)
 
 ```sh
 oc new-project my-project
