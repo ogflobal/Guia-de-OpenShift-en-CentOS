@@ -12,7 +12,7 @@ https://vm1.192.168.0.101.nip.io:8443
 
 ![Screenshot from 2023-10-15 17-56-40](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/6ff4a811-6971-48ad-8a75-c318b9ac4f17)
 
-**Ejemplo:**
+**Ejemplo**
 
 ```sh
 # Crear un nuevo proyecto
