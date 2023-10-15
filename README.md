@@ -19,7 +19,9 @@ oc describe service hello-openshift
 curl http://<cluster-ip|external-ip>:<port>
 ```
 
+![Screenshot from 2023-10-15 18-41-40](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/04de5554-f077-4d6d-be62-70c1b54be38f)
 
+![Screenshot from 2023-10-15 18-43-52](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/7f112cd2-748d-4532-b1bc-c20e1a818a93)
 
 ```sh
 oc project default
