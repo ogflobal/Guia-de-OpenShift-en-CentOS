@@ -10,7 +10,7 @@ https://vm1.192.168.0.101.nip.io:8443
 
 ```sh
 oc new-project my-project
-oc tag --source=docker openshift/hello-openshift:latest
+oc tag --source=docker openshift/hello-openshift:v3.9.0 hello-openshift:latest
 oc new-app hello-openshift
 oc expose service hello-openshift --name my-service
 oc get service hello-openshift
