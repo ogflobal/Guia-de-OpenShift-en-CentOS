@@ -1,21 +1,38 @@
 # Guia-de-OpenShift-en-CentOS
 
+Iniciar sesión en OpenShift
 oc login https://vm1.192.168.0.101.nip.io:8443
 
 ![Screenshot from 2023-10-15 17-48-13](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/ee875b5f-cf68-472a-a13e-5da18f123a2e)
 
+Acceder a la URL de OpenShift
 https://vm1.192.168.0.101.nip.io:8443
 
 ![Screenshot from 2023-10-15 17-56-40](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/6ff4a811-6971-48ad-8a75-c318b9ac4f17)
 
 ```sh
+# Crear un nuevo proyecto
 oc new-project my-project
+
+# Etiquetar una imagen Docker en el proyecto
 oc tag --source=docker openshift/hello-openshift:v3.9.0 hello-openshift:latest
+
+# Crear una nueva aplicación utilizando la imagen etiquetada
 oc new-app hello-openshift
+
+# Exponer el servicio de la aplicación y asignarle un nombre
 oc expose service hello-openshift --name my-service
+
+# Obtener información sobre el servicio creado
 oc get service hello-openshift
+
+# Obtener información sobre la ruta pública del servicio
 oc get route my-service
+
+# Describir el servicio para obtener más detalles
 oc describe service hello-openshift
+
+# Realizar una solicitud HTTP a la dirección especificada (se debe reemplazar <cluster-ip|external-ip> y <port> con valores reales)
 curl http://<cluster-ip|external-ip>:<port>
 ```
 
