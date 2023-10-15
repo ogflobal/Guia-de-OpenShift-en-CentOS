@@ -1,13 +1,15 @@
 # Guia-de-OpenShift-en-CentOS
-Guía para la implementación y aprendizaje de OpenShift en el entorno del Sistema Operativo CentOS.
+
+oc login https://vm1.192.168.0.101.nip.io:8443
 
 ![Screenshot from 2023-10-15 17-48-13](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/ee875b5f-cf68-472a-a13e-5da18f123a2e)
 
-# Inicie sesión en la consola web de OpenShift en su navegador.
 https://vm1.192.168.0.101.nip.io:8443
 
+![image](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/853c8c4e-7d3c-4d12-9f94-d160ae032183)
+
+
 ```sh
-oc login https://vm1.192.168.0.101.nip.io:8443
 oc new-project my-project
 oc tag --source=docker openshift hello-openshift:latest
 oc new-app hello-openshift
