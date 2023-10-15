@@ -15,15 +15,17 @@ oc new-app hello-openshift
 oc expose service hello-openshift --name my-service
 oc get service hello-openshift
 oc get route my-service
-oc edit deploymentconfig hello-openshift
 oc describe service hello-openshift
 curl http://<cluster-ip|external-ip>:<port>
 ```
+
+
 
 ```sh
 oc project default
 oc whoami -c
 oc scale deploymentconfig hello-openshift --replicas=3
+oc edit deploymentconfig hello-openshift
 oc delete all -l app=hello-openshift
 oc delete project my-project
 oc logout
