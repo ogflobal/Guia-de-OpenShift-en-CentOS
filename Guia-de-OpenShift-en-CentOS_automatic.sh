@@ -38,7 +38,3 @@ sudo htpasswd -b /etc/origin/master/htpasswd admin $password
 
 # Asignar el rol de administrador del clúster al usuario
 sudo oc adm policy add-cluster-role-to-user cluster-admin admin
-
-# Observar los despliegues, servicios y pods en todos los espacios de nombres
-sudo watch oc get deployments,services,pods --all-namespaces
-
