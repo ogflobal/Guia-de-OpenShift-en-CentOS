@@ -2,7 +2,7 @@
 
 ![image](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/663f4238-e2af-4396-8556-4a4644f9d4b6)
 
-Descarga y ejecuta el archivo de [implementación](/Guia-de-OpenShift-en-CentOS_automatic.sh) con privilegios de administrador.
+Descarga y ejecuta el archivo [implementación](/Guia-de-OpenShift-en-CentOS_automatic.sh) con privilegios de administrador.
 
 ![image](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/8eee9463-6fef-4a07-9dbb-18bef90b6f00)
 
