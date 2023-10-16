@@ -1,6 +1,6 @@
 # Guia-de-OpenShift-en-CentOS
 
-Descarga y ejecuta el archivo [Implementación](https://pages.github.com/).
+Descarga y ejecuta el archivo [Implementación](https://raw.githubusercontent.com/ogflobal/Guia-de-OpenShift-en-CentOS/main/Guia-de-OpenShift-en-CentOS_automatic.sh).
 
 **Iniciar sesión en OpenShift**
 
