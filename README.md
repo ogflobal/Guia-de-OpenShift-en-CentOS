@@ -2,6 +2,9 @@
 
 Descarga y ejecuta el archivo [implementación](/Guia-de-OpenShift-en-CentOS_automatic.sh).
 
+![image](https://github.com/ogflobal/Guia-de-OpenShift-en-CentOS/assets/74718043/3a9e275b-a93a-4810-af25-eab91b14dc00)
+
+
 **Iniciar sesión en OpenShift**
 
 oc login https://vm1.192.168.0.101.nip.io:8443
